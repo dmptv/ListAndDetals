@@ -23,7 +23,8 @@ class CrimeTypeConverters {
     }
 
     @TypeConverter
-    fun fromUUID(uuid: String?): String? {
+    fun fromUUID(uuid: UUID?): String? {
         return uuid?.toString()
     }
+
 }
