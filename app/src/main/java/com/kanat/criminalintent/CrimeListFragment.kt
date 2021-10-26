@@ -106,7 +106,6 @@ class CrimeListFragment : Fragment() {
         }
 
         override fun onClick(p0: View?) {
-
             callbacks?.onCrimeSelected(crime.id)
         }
     }
