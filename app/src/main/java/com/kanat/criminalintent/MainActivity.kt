@@ -7,6 +7,9 @@ import com.kanat.criminalintent.crimedetail.CrimeFragment
 import com.kanat.criminalintent.crimelist.CrimeListFragment
 import java.util.*
 
+//  Статьи на русском языке по изучаемым темам
+// https://startandroid.ru/ru/courses/architecture-components/27-course/architecture-components/529-urok-5-room-osnovy.html
+
 private const val TAG = "MainActivity"
 
 class MainActivity : AppCompatActivity(), CrimeListFragment.Callbacks {
