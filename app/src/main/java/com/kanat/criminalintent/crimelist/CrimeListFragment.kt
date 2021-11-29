@@ -1,4 +1,4 @@
-package com.kanat.criminalintent
+package com.kanat.criminalintent.crimelist
 
 import android.content.Context
 import android.os.Bundle
@@ -8,15 +8,15 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.kanat.criminalintent.R
+import com.kanat.criminalintent.database.Crime
 import java.text.SimpleDateFormat
 import java.util.*
-import javax.security.auth.callback.Callback
 
 private const val TAG = "CrimeListFragment"
 
@@ -67,7 +67,7 @@ class CrimeListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        crimeListViewModel.crimeListLiveData.observe(
+        val observe = crimeListViewModel.crimeListLiveData.observe(
             viewLifecycleOwner,
             Observer { crimes ->
                 crimes?.let {

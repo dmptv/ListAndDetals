@@ -1,6 +1,8 @@
-package com.kanat.criminalintent
+package com.kanat.criminalintent.crimelist
 
 import androidx.lifecycle.ViewModel
+import com.kanat.criminalintent.database.CrimeRepository
+
 
 class CrimeListViewModel : ViewModel() {
 

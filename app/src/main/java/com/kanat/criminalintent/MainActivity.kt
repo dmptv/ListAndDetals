@@ -3,6 +3,8 @@ package com.kanat.criminalintent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.kanat.criminalintent.crimedetail.CrimeFragment
+import com.kanat.criminalintent.crimelist.CrimeListFragment
 import java.util.*
 
 private const val TAG = "MainActivity"

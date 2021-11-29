@@ -1,4 +1,4 @@
-package com.kanat.criminalintent
+package com.kanat.criminalintent.crimedetail
 
 import android.os.Bundle
 import android.text.Editable
@@ -11,6 +11,8 @@ import android.widget.Button
 import android.widget.CheckBox
 import android.widget.EditText
 import androidx.fragment.app.Fragment
+import com.kanat.criminalintent.R
+import com.kanat.criminalintent.database.Crime
 import java.util.*
 
 private const val TAG = "CrimeFragment"

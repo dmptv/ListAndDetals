@@ -1,8 +1,9 @@
-package com.kanat.criminalintent
+package com.kanat.criminalintent.database
 
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.room.Room
+import com.kanat.criminalintent.database.Crime
 import com.kanat.criminalintent.database.CrimeDatabase
 import java.lang.IllegalStateException
 import java.util.*

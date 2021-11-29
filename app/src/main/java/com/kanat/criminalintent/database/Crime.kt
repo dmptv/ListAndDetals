@@ -1,4 +1,4 @@
-package com.kanat.criminalintent
+package com.kanat.criminalintent.database
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

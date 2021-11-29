@@ -3,7 +3,6 @@ package com.kanat.criminalintent.database
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Query
-import com.kanat.criminalintent.Crime
 import java.util.*
 
 @Dao
