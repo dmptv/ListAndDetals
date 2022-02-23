@@ -13,6 +13,7 @@ import java.util.*
 private const val TAG = "MainActivity"
 
 class MainActivity : AppCompatActivity(), CrimeListFragment.Callbacks {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
